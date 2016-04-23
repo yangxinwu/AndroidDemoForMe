@@ -10,7 +10,14 @@
     tools:context="com.androiddemo.MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src ="@drawable/bitmap_drawable" />
+        android:id="@+id/animation_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src ="@drawable/level_list_drawable"
+        android:layout_centerInParent="true"/>
+
+
+
+
+
 </RelativeLayout>
